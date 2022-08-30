@@ -99,9 +99,36 @@
 // }
 // document.write(toCelsius(96.6));
 
-function toCelsius(far){
+// function toCelsius(far){
 
-    return ((far-32)*5)/9 ;
+//     return ((far-32)*5)/9 ;
+// }
+
+// document.getElementById("demo").innerHTML="to day temp is " + toCelsius(56) + 'ce' ;
+
+
+// function sayhi(){
+//     document.getElementById("demo").innerHTML='hi';
+
+// }
+
+// function sayhi(){
+//     document.getElementById("demo1").innerHTML='hello';
+    
+// }
+
+
+function sayhi(){
+    document.getElementById('demo').src="../khan/emoji.jpg"
+    document.getElementById('happy').style="display:none"
+    document.getElementById('heart').style="display:block"
+
+
 }
+function sayhello(){
+    document.getElementById('demo').src="../khan/download.jpg"
+    document.getElementById('heart').style="display:none"
+    document.getElementById('happy').style="display:block"
 
-document.getElementById("demo").innerHTML="to day temp is " + toCelsius(56) + 'ce' ;
+
+}
